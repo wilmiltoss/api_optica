@@ -12,7 +12,7 @@
         pr($list);
     });
 
-    //GET por id
+    //GET por id opcion
     $app->get("/categoria/{idcategoria}",function(Request $request, Response $response){
         try {
             $idcategoria = $request->getAttribute('idcategoria');
